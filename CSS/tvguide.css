@@ -1,0 +1,492 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Medium.ttf);
+}
+body, html{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: roboto;
+    background-color: #061A13;
+}
+.head{
+    height: 100px;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 500;
+}
+.drop1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.tryy:hover{
+    color: green !important;
+}
+.fa-angle-down:focus .drop1{
+    display: inherit !important;
+}
+button{
+    background-color: rgba(0, 0, 0, 0);
+}
+a{
+    text-decoration: none !important;
+}
+.small-circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.drop-box{
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.try-remove{
+    background-color:  rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    font-size: 18px;
+    /* text-shadow: 0px 0px 1px; */
+}
+.try-remove:hover{
+    color: green !important;
+    border: none !important;
+    background-color: rgba(0, 0, 0, 0);    
+}
+.get-gotv:hover{
+    Color: green !important;
+    cursor: pointer;
+}
+.fa-angle-down:focus .drop1{
+    display: inherit !important;
+}
+.head2{
+    height: 100px;
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 500;
+    display: none !important;
+}
+.drop6{
+    width: 375px;
+    height: 850px;
+    background-color: rgba(0, 0, 0, 0.97);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000 !important;
+}
+.drop6-go{
+    margin-top: 35px; 
+    width: 320px; 
+    background-color:rgba(0, 0, 0, 0); 
+    color: white; 
+    font-size: 22px; 
+    border: none;
+}
+.drop6-go2{
+    margin-top: 0px; 
+    width: 320px; 
+    background-color:rgba(0, 0, 0, 0); 
+    color: white; 
+    font-size: 22px; 
+    border: none;
+}
+.guide{
+   width: 100%;
+   height: 100vh;
+   background-image: url(../image/q1-great-stories.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.dash{
+    margin-top: 30px;
+    width: 110px;
+    border: 1px solid white;
+}
+.container .butt1{
+    width: 350px !important; 
+    height:85px !important;
+    font-size: 25px;
+    color: green;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid green;
+    margin-top: 50px;
+    margin-left: -12px;
+    z-index: 20 !important;
+}
+.container .butt1:focus{
+    background-color:  rgba(0, 0, 0, 0.5) !important;
+    border: none;
+    box-shadow: none;
+}
+.container .butt1:hover{
+    background-color:  rgba(0, 0, 0, 0.5) !important;
+    border: none;
+    box-shadow: none;  
+    color: green;
+}
+.container .butt1:active{
+    box-shadow: none !important;
+    color: green !important;
+}
+.container .butt2{
+    width: 350px !important; 
+    height:85px !important;
+    font-size: 25px;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid red;
+    margin-top: 50px;
+    margin-left: -300px;
+    /* z-index: 1 !important; */
+}
+.container .butt2:focus{
+    background-color:  rgba(0, 0, 0, 0.5) !important;
+    border: none;
+    box-shadow: none;
+}
+.container .butt2:hover{
+    background-color:  rgba(0, 0, 0, 0.5) !important;
+    border: none;
+    box-shadow: none;  
+    color: red;
+}
+.container .butt2:active{
+    box-shadow: none !important;
+    color: red !important;
+}
+.drop{
+    width: 320px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid green;
+    /* position: absolute; */
+    margin-left: 2px;
+    z-index: 20 !important;
+}
+.try:hover{
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 40px;
+    margin-left: -18px;
+}
+.drop2{
+    width: 320px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid red;
+    /* position: absolute; */
+    margin-left: -280px;
+    overflow-y: auto;
+}
+.TV{
+    font-size: 100px;
+    padding-top: 75px;
+}
+.Guide{
+    font-size: 50px;
+    margin-top: 0px;
+}
+.What{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.sse{
+    width: 1364px !important;  
+}
+.try2{
+    background-color: #584505;
+    border: 12px solid black;
+    margin-top: 150px;
+    height:150px;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    box-shadow: 0px 0px 5px;
+}
+.try3{
+    background-color: #E8B60E;
+    border: 12px solid black;
+    margin-top: 150px;
+    height:150px;
+}
+.d-flex .try4{
+    background-color: #E8B60E;
+    border: 12px solid black;
+    height:250px;
+    width: 400px;
+    margin-top: 150px !important;
+    margin-left: 170px !important;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    display: none; 
+    
+}
+.design{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.coldiv{
+    background-color: black;
+    width: 100%;
+    /* height: 600px; */
+}
+.imag{
+    margin-left: 600px;
+    margin-top:60px;
+}
+.multi{
+    font-size: 14px;
+    margin-left: 565px;
+}
+.webb{
+    font-size: 14px;
+    margin-left: 200px;
+}
+.d-flex .box1{
+    width: 250px;
+    height: 100px;
+    border: none;
+    background-color: #584505;
+    margin-top: 200px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+.d-flex .box2{
+    width: 250px;
+    height: 100px;
+    border: none;
+    background-color: #E8B60E;
+    margin-top: 200px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+/* //@Respond */
+@media(max-width:1309px
+){
+    .butt2{
+        margin-left: 200px !important;
+    }
+    .drop2{
+        margin-left: 200px !important;
+    }
+}
+@media(max-width:1000px){
+    .head{
+        height: 100px;
+        width: 100%; 
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 500;
+        display: none !important;
+    }
+    .head2{
+        height: 100px;
+        width: 100%; 
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 500;
+        position: fixed !important;
+        top: 0 !important;
+        left: o !important;
+        display: flex !important;
+    }
+}
+@media(max-width:976px
+){
+    .butt2{
+        /* display: none !important; */
+        margin-left: -20px !important;
+    }
+    .drop2{
+        margin-left: -20px !important;
+    }
+}
+@media(max-width:747px){
+    .rrt{
+        display: none !important;
+    }
+}
+.butt2{
+    margin-left: -378px !important;
+    margin-top: 370px !important;
+}
+.drop2{
+    margin-left: -378px !important;
+    margin-top: -335px !important;
+}
+.try4{
+    display: inherit !important ;
+}
+@media(max-width:587px){
+.d-flex .try4{
+    margin-left: 60px !important;
+}
+
+}
+@media(max-width:466px){
+    .d-flex .try4{
+        width: 300px !important;
+        margin-bottom: 100px !important;
+    }
+}
+@media(max-width:420px){
+    .butt2{
+        margin-top: 330px !important;
+        width: 200px !important;
+    }
+    .butt1{
+        margin-left: -30px !important;
+        margin-top: -8px !important;
+        width: 70px !important;
+        /* display: none !important; */
+    }
+}
+@media(max-width:5px)
+{
+    .TV{
+        font-size: 70px;
+        padding-top: 25px;
+    }
+    .Guide{
+        font-size: 40px;
+        margin-top:-20px;
+    }
+    .dash{
+        margin-top: 10px;
+        width: 110px;
+        border: 1px solid white;
+    }
+    .What{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .guide{
+        width: 100%;
+        height: 100vh;
+        background-image: url(../image/q1-great-stories.png); 
+     }
+     .container .butt1{
+        width: 300px !important; 
+        height:85px !important;
+        font-size: 25px;
+        color: green;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid green;
+        margin-top: 20px;
+        margin-left: -12px;
+        z-index: 20 !important;
+    }
+    .drop{
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 1);
+        border: 1px solid green;
+        /* position: absolute; */
+        margin-left: 5px;
+        z-index: 20000 !important;
+    }
+    .container .butt2{
+        width: 300px !important; 
+        height:85px !important;
+        font-size: 25px;
+        color: red;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid red;
+        margin-top: 120px;
+        margin-left: -330px;
+        /* z-index: 1 !important; */
+    }
+    .drop2{
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid red;
+        /* position: absolute; */
+        margin-left: -300px;
+        overflow-y: auto;
+    }
+    .try2{
+        background-color: #584505;
+        border: 12px solid black;
+        margin-top: 250px;
+        height:150px;
+        /* align-items: center; */
+        justify-content: center;
+        /* display: flex; */
+        box-shadow: 0px 0px 5px;
+        display: none;
+    }
+    .try3{
+        background-color: #E8B60E;
+        border: 12px solid black;
+        margin-top: 250px;
+        height:150px;
+        display: none;
+    }
+    .try4{
+        background-color: #E8B60E;
+        border: 12px solid black;
+        margin-top: 100px;
+        height:150px;
+        width: 370px;
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        /* display: inherit;  */
+        
+    }
+    .design{
+        width: 370px;
+        padding: 10px;
+        /* height: 20px; */
+        /* background-color: red; */
+    }
+    .imag{
+        margin-left: 100px;
+        margin-top:0px;
+    }
+    .multi{
+        font-size: 14px;
+        margin-left: 70px;
+    }
+    .webb{
+        font-size: 14px;
+        margin-left:0px;
+    }
+    
+
+}
