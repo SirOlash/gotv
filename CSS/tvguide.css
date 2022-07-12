@@ -153,8 +153,9 @@ a{
     color: red;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid red;
-    margin-top: -150px !important;
-    margin-left: -300px !important;
+    margin-top: -750px !important;
+    margin-left: -00px !important;
+    display: none !important;
     /* z-index: 1 !important; */
 }
 .container .butt2:focus{
@@ -239,7 +240,7 @@ a{
     align-items: center;
     justify-content: center;
     /* display: flex; */
-    display: none; 
+    display: none !important; 
     
 }
 .design{
@@ -293,12 +294,12 @@ a{
     color: white;
 }
 
-.d-flex .try4{
+/* .d-flex .try4{
     display: none  !important;
-}
+} */
 
 /* //@Respond */
-@media(max-width:1309px
+/* @media(max-width:13px */
 ){
     /* .container .butt2{
         margin-left: 200px !important;
@@ -337,9 +338,9 @@ a{
     }
 }
 @media(max-width:747px){
-    .rrt{
-        display: none !important;
-    }
+ .rrt{
+    display: none !important;
+}
 }
 .container .butt2{
     margin-left: -378px !important;
@@ -349,8 +350,18 @@ a{
     margin-left: -378px !important;
     margin-top: -335px !important;
 }
-.try4{
-    display: inherit !important ;
+.d-flex .try4{
+    background-color: #E8B60E;
+    border: 12px solid black;
+    height:250px;
+    width: 400px;
+    margin-top: 150px !important;
+    margin-left: 170px !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* display: inherit !important;  */
+    
 }
 @media(max-width:587px){
 .d-flex .try4{
