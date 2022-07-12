@@ -293,7 +293,9 @@ a{
     color: white;
 }
 
-
+.d-flex .try4{
+    display: none 
+}
 
 /* //@Respond */
 @media(max-width:1309px
