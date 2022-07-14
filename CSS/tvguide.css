@@ -22,8 +22,8 @@ body{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
-    top: 0;
-    left:0;
+    top: 100px !important;
+    left:200px !important;
 }
 .tryy:hover{
     color: green !important;
@@ -153,10 +153,12 @@ a{
     color: red;
     background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid red;
-    margin-top: -750px !important;
-    margin-left: -00px !important;
-    display: none !important;
-    /* z-index: 1 !important; */
+    position: absolute;
+    top: 550px !important;
+    left: 600px !important;
+    /* margin-left: -378px !important; */
+    /* display: none !important; */
+    z-index: 20 !important;
 }
 .container .butt2:focus{
     background-color:  rgba(0, 0, 0, 0.5) !important;
@@ -173,12 +175,12 @@ a{
     box-shadow: none !important;
     color: red !important;
 }
-.drop{
+.drop11{
     width: 320px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid green;
-    /* position: absolute; */
+    position: absolute;
     margin-left: 2px;
     z-index: 20 !important;
 }
@@ -189,13 +191,16 @@ a{
     height: 40px;
     margin-left: -18px;
 }
-.drop2{
+.drop22{
     width: 320px;
     height: 250px;
     background-color: rgba(0, 0, 0, 0.8);
     border: 1px solid red;
-    /* position: absolute; */
-    margin-left: -280px;
+    position: absolute;
+    top: 970px !important;
+    left: 920px !important;
+    margin-left: -300px;
+    margin-top: -340px !important;
     overflow-y: auto;
 }
 .TV{
@@ -293,6 +298,14 @@ a{
     font-size: 30px;
     color: white;
 }
+.drop1{
+    left: 0px !important;
+    top: 0px !important;
+}
+/* .container .butt2{
+    margin-left: -378px !important;
+    margin-top: 370px !important;
+} */
 
 /* .d-flex .try4{
     display: none  !important;
@@ -333,41 +346,115 @@ a{
         /* display: none !important; */
         margin-left: -20px !important;
     }
-    .drop2{
+    .drop22{
         margin-left: -20px !important;
     }
 }
-@media(max-width:747px){
+@media(max-width:932px){
+    .container .butt2{
+        margin-left: -200px !important;
+    }
+    .drop22{
+        margin-left: -500px !important;
+        margin-top: -340px !important;
+    }
+}
+@media(max-width:877px){
+    .container .butt2{
+        width: 350px !important; 
+        height:85px !important;
+        font-size: 25px;
+        color: red;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 1px solid red;
+        position: absolute;
+        top: 550px !important;
+        left: 630px !important;
+        /* display: none !important; */
+        /* z-index: 1 !important; */
+    }
+    .drop22{
+        width: 320px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid red;
+        position: absolute;
+        top: 970px !important;
+        left: 950px !important;
+        overflow-y: auto;
+    }
+}
+@media(max-width: 785px){
+    .container .butt1{
+        width: 200px !important;
+    }
+    .drop11{
+        width: 200px !important;
+        left: 30px !important;
+    }
+    .drop22{
+        width: 200px !important;
+        left: 800px !important;
+    }
+    .try{
+        font-size: 17px !important;
+    }
+    .container .butt2{
+        width: 200px !important;
+        margin-left: -330px !important;
+        margin-top: -4px !important;
+    }
+    .choose{
+        font-size: 25px !important;
+    }
+}
+@media(max-width:699px){
  .rrt{
     display: none !important;
 }
-}
 .container .butt2{
-    margin-left: -378px !important;
-    margin-top: 370px !important;
+    margin-left: -278px !important;
+    margin-top: -7px !important;
 }
-.drop2{
-    margin-left: -378px !important;
-    margin-top: -335px !important;
+.drop22{
+    margin-left: -450px !important;
+    margin-top: -345px !important;
 }
 .d-flex .try4{
     background-color: #E8B60E;
     border: 12px solid black;
     height:250px;
     width: 400px;
-    margin-top: 150px !important;
+    margin-top: 20px !important;
     margin-left: 170px !important;
     align-items: center;
     justify-content: center;
-    display: flex;
-    /* display: inherit !important;  */
-    
+    display: flex !important;
+    /* display: inherit !important;  */  
 }
+}
+
 @media(max-width:587px){
 .d-flex .try4{
     margin-left: 60px !important;
 }
-
+.container .butt2{
+    margin-left: -320px !important;
+    margin-top: 30px !important;
+    /* top: 170px !important; */
+}
+.drop22{
+    margin-top: -310px !important;
+    margin-left: -490px !important;
+}
+}
+@media(max-width:511px){
+    .container .butt2{
+        margin-left: -400px !important;
+    }
+    .drop22{
+        margin-left: -570px !important;
+    }
 }
 @media(max-width:466px){
     .d-flex .try4{
@@ -375,16 +462,37 @@ a{
         margin-bottom: 100px !important;
     }
 }
-@media(max-width:420px){
+@media(max-width:436px){
     .container .butt2{
-        margin-top: 330px !important;
-        width: 200px !important;
+        margin-top: -18px !important;
+        width: 150px !important;
+        height: 50px !important;
+        font-size: 14px !important;
+        margin-left: -430px !important;
+    }
+    .drop22{
+        margin-top: -400px !important;
+        width: 150px !important;
+        margin-left: -600px !important;
     }
     .container .butt1{
         margin-left: -30px !important;
-        margin-top: -8px !important;
-        width: 70px !important;
+        margin-top: 2px !important;
+        width: 150px !important;
+        height: 50px !important;
+        font-size: 14px !important;
         /* display: none !important; */
+    }
+    .d-flex .try4{
+        margin-left: 35px !important;
+    }
+    .drop11{
+        width: 150px !important;
+        height: 200px !important;
+        margin-left: -17px !important;
+    }
+    .try{
+        font-size: 15px !important;
     }
 }
 @media(max-width:5px)
@@ -422,7 +530,7 @@ a{
         margin-left: -12px;
         z-index: 20 !important;
     }
-    .drop{
+    .drop11{
         width: 250px;
         height: 250px;
         background-color: rgba(0, 0, 0, 1);
@@ -442,7 +550,7 @@ a{
         margin-left: -330px;
         /* z-index: 1 !important; */
     }
-    .drop2{
+    .drop22{
         width: 250px;
         height: 250px;
         background-color: rgba(0, 0, 0, 0.8);

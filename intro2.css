@@ -7,6 +7,8 @@
 body{
     font-family: roboto;
     background-color: #061A13;
+    padding: 0px;
+    margin: 0px;
 }
 
 /*# sourceMappingURL=intro.css.map */
@@ -68,6 +70,8 @@ body{
     width: 100%; 
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 500;
+    margin-top: -200px !important;
+    
 }
 .head2{
     height: 100px;
@@ -85,13 +89,6 @@ body{
 }
 button{
     background-color: rgba(0, 0, 0, 0);
-}
-button:active{
-    background-color: rgba(0, 0, 0, 0) !important;
-    border: none !important;
-}
-button:focus{
-    border: none !important;
 }
 a{
     text-decoration: none !important;
@@ -1210,13 +1207,6 @@ a{
         margin-left: 200px !important;
     }
 }
-@media(max-width:747px
-){
-    .rrt{
-        /* display: none !important; */
-    }
-}
-
 @media(max-width:692px){
     .caro-img{
         width: 1000px !important;
@@ -1718,10 +1708,6 @@ a{
         margin-left: 20px !important;
         width: 160px !important;
     }
-    .vidd2{
-        margin-left: -50px !important;
-    
-    }
 
 }
 @media(max-width:340px){
@@ -1737,8 +1723,6 @@ a{
     .fine{
         /* display: none !important; */
     }
-   
-
 }
 @media(max-width:280px){
     .white-box{
